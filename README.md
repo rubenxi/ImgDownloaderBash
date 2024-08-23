@@ -12,8 +12,7 @@ All the requirements to run gallery-dl (python, glibc)
 1) Clone
 
 2) Run in the folder of the project:
-3) 
-`chmod +x +R ./*`
+3) `chmod +x +R ./*`
 
 4) Configure
    In the tags files include the tags you want to use in each site separated by space and with a final space in the last one, like in the examples provided
