@@ -22,7 +22,7 @@ then
       
     "./comparesize.sh"&
     
-  "./gallery-dl.bin" -i "./tabs.txt" -d ~/"ImgDownloaderBash/temp" --filter "str(date) >= '$lastweek'" -o 'metadata=true' -o 'filename={md5}.{extension}' -c "./gallery-dl.conf" --no-part
+  "./gallery-dl.bin" -i "./tabs.txt" -d ~/"ImgDownloaderBash/temp" --filter "str(date) >= '$lastweek'" -o 'filename={md5}.{extension}' -c "./gallery-dl.conf" --no-part
   
   
   echo "Downloads finished"
