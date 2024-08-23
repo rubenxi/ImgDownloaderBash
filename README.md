@@ -10,19 +10,12 @@ All the requirements to run gallery-dl (python, glibc)
 
 # Install and run
 1) Clone
-
 2) Run in the folder of the project:
 `chmod +x +R ./*`
-
-3) Configure
-   In the tags files include the tags you want to use in each site separated by space and with a final space in the last one, like in the examples provided
-
-4) `./ImgDownloaderBash.sh
-
+3) In the tags files include the tags you want to use in each site separated by space and with a final space in the last one, like in the examples provided
+4) `./ImgDownloaderBash.sh`
 5) In the first run you'll have to update the gallery-dl version to download the executable.
-6) 
-After that, you will be prompted with a website selector to select from where do you want to download images.
-
+6) After that, you will be prompted with a website selector to select from where do you want to download images.
 7) The script will download all the images that were uploaded one week ago (by default) or the last time it was run (if it was less than a week ago).
 8) Then all the images will be sorted in folders containing images from yesterday, today, and new images obtained in the last run.
 
