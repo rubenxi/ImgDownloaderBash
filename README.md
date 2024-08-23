@@ -48,3 +48,8 @@ zerochan.net
 safebooru.org
 
 konachan.net
+
+## Credits
+This project utilizes `gallery-dl` developed by mikf.
+You can find more about `gallery-dl` and its original repository at [mikf's GitHub](https://github.com/mikf/).
+
