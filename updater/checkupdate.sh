@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# antiguamente este funcionaba: version=`curl -s https://github.com/mikf/gallery-dl/releases/latest | cut -d'/' -f8-8 | cut -d'"' -f1-1`
 version=`awk -F 'releases/tag/' '{print $2}' <<< "$(curl -s https://github.com/mikf/gallery-dl | grep "/releases/tag/")" | cut -d'"' -f1-1`
 
 sizeversion=${#version}
@@ -36,7 +35,6 @@ Current version: $currentversion" \
 --extra-button "Close" \
 --extra-button "See news")
 
-
 code=$?
 answer="$code-$label"
 
@@ -55,16 +53,11 @@ xdg-open "https://github.com/mikf/gallery-dl/releases/latest" &
 exit
 fi
 
-
-
 else
 
 echo "gallery-dl is updated to version: $currentversion"
 
 fi
-
-
-
 
 fi
 fi
