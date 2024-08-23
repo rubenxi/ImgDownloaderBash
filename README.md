@@ -27,3 +27,10 @@ All the requirements to run gallery-dl
 8) Then all the images will be sorted in folders containing images from yesterday, today, and new images obtained in the last run. The script will also check and delete old images that have more than one week and check images with incorrect date format and fix them.
 
 9) Finally the script asks in a prompt window if you want to open the folder containing the downloaded images.
+
+# Supported sites
+Zerochan
+
+Safebooru
+
+Konachan
