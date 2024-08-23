@@ -3,15 +3,16 @@ Set of Shell scripts designed to interact with each other to automate the proces
 
 # Requirements
 zenity
+
 wget
+
 All the requirements to run gallery-dl (python, glibc)
 
 # Install and run
 1) Clone
 
 2) Run in the folder of the project:
-```
-chmod +x +R ./*
+`chmod +x +R ./*`
 
 3) Configure
    In the tags files include the tags you want to use in each site separated by space and with a final space in the last one, like in the examples provided
