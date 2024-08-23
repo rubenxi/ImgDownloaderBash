@@ -3,7 +3,6 @@ Set of Shell scripts designed to interact with each other to automate the proces
 
 # Requirements
 zenity
-
 wget
 
 All the requirements to run gallery-dl (python, glibc)
@@ -17,7 +16,7 @@ All the requirements to run gallery-dl (python, glibc)
 3) Configure
    In the tags files include the tags you want to use in each site separated by space and with a final space in the last one, like in the examples provided
 
-4) `./ImgDownloaderBash`
+4) `./ImgDownloaderBash.sh
 
 5) In the first run you'll have to update the gallery-dl version to download the executable.
 After that, you will be prompted with a website selector to select from where do you want to download images.
