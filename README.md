@@ -6,7 +6,7 @@ zenity
 
 wget
 
-All the requirements to run gallery-dl (python, glibc)
+All the requirements to run gallery-dl 
 
 # Install and run
 1) Clone
