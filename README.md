@@ -30,6 +30,8 @@ All the requirements to run gallery-dl
 
 9) Finally the script asks in a prompt window if you want to open the folder containing the downloaded images.
 
+![Screenshot_20240823_151638](https://github.com/user-attachments/assets/48ba9b9c-1ca7-4905-8ade-6b873937a734)
+
 # Supported sites
 Zerochan
 
