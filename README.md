@@ -21,6 +21,7 @@ All the requirements to run gallery-dl
 5) In the first run you'll have to update the gallery-dl version to download the executable.
 
 6) After that, you will be prompted with a website selector to select from where do you want to download images.
+
 ![Screenshot_20240823_150915](https://github.com/user-attachments/assets/2737cfa6-74fa-41d2-b034-963488f957fd)
 
 7) The script will download all the images that were uploaded one week ago (by default) or the last time it was run (if it was less than a week ago).
