@@ -28,5 +28,5 @@ killall "gallery-dl.bin";
 
 
 
-rm -r /tmp/_MEI* > /dev/null 2>&1 ##Para borrar la basura que crea gallery-dl si no se cierra bien
+rm -r /tmp/_MEI* > /dev/null 2>&1 
 
