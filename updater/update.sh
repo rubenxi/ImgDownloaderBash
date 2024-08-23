@@ -13,6 +13,8 @@ else
 rm /tmp/gallery-dl/*
 
 mkdir /tmp/gallery-dl/
+currentfolder=`pwd`
+
 cd /tmp/gallery-dl/
 
 wget "https://github.com/mikf/gallery-dl/releases/download/$version/gallery-dl.bin"
@@ -20,7 +22,7 @@ wget "https://github.com/mikf/gallery-dl/releases/download/$version/gallery-dl.b
 sleep 3
 
 
-
+cd "$currentfolder"
 if [ -f "/tmp/gallery-dl/gallery-dl.bin" ]
 then
 
@@ -33,9 +35,8 @@ echo "$version" > "./updater/version.txt"
 
 chmod +rwx "./gallery-dl.bin"
 
-
 notify-send -a "ImgDownloaderBash" "gallery-dl updated to version: $version" 
-versionprogram=$("./gallery-dl.bin" --version)
+versionprogram=`cat ./updater/version.txt`
 echo "gallery-dl updated to version: $versionprogram"
 
 else

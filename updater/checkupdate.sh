@@ -45,7 +45,7 @@ echo "$answer"
 if [ "$answer" = "0-" ]
 then
 notify-send  -a "ImgDownloaderBash" "Updating"
-"./updater/updategallery-dl.sh" $version $currentversion
+"./updater/update.sh" $version $currentversion
 elif [ "$answer" = "1-Close" ]
 then
 exit
