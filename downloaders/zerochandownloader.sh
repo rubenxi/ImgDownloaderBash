@@ -2,7 +2,7 @@
 
 conttotal=0
 
-lastweek=$("./lastuse.sh")
+lastweek=$("./lastusedate.sh")
 
 echo "" | tr -d "\n" > "./tabs.txt"
 
@@ -42,7 +42,7 @@ done < "./tags/tagszerochan.txt"
 
 echo "" | tr -d "\n" > "./tabs.txt"
 
-rm -r /tmp/_MEI* > /dev/null 2>&1 ##Para borrar la basura que crea gallery-dl si no se cierra bien
+rm -r /tmp/_MEI* > /dev/null 2>&1
 
 
 

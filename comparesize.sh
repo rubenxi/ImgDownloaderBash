@@ -10,9 +10,9 @@ wait=1
 
 
 while [ "$wait" -eq 1 ]; do
-      tam1=$(du -hs "/home/ruben/Pictures/Grabber/temp" -b | cut -f1)
+      tam1=$(du -hs ~/"ImgDownloaderBash/temp" -b | cut -f1)
       sleep "$s"
-      tam2=$(du -hs "/home/ruben/Pictures/Grabber/temp" -b | cut -f1)
+      tam2=$(du -hs ~/"ImgDownloaderBash/temp" -b | cut -f1)
   if [ "$tam1" -eq "$tam2" ]; then
     echo "";
   echo "End";
@@ -28,5 +28,5 @@ killall "gallery-dl.bin";
 
 
 
-rm -r /tmp/_MEI* > /dev/null 2>&1 
+rm -r /tmp/_MEI* > /dev/null 2>&1
 

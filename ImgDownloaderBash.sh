@@ -68,7 +68,7 @@ Select where to search:" \
                     --column="Booru" \
                     --column="time (m)" \
                     --column="Recommended" \
-                    1 "Zerochan" "$tzerochan" " " 2 "Konachan" "$tkonachan" " " 3 "Safebooru" "$tsafebooru" "X" 2> >(grep -v Gtk >&2)) 
+                    1 "Zerochan" "$tzerochan" " " 2 "Konachan" "$tkonachan" " " 3 "Safebooru" "$tsafebooru" " " 2> >(grep -v Gtk >&2)) 
 ans=$?
 addall=$((tkonachan + tsafebooru + tzerochan))
 if [ $ans -eq 0 ]
