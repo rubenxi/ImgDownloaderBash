@@ -43,11 +43,11 @@ All the requirements to run gallery-dl
 ![Screenshot_20240823_164042](https://github.com/user-attachments/assets/206132f4-c519-43b0-b8fc-501f78908d53)
 
 # Supported sites
-[Zerochan](zerochan.net)
+[Zerochan](https://zerochan.net)
 
-[Safebooru](safebooru.org)
+[Safebooru](https://safebooru.org)
 
-[Konachan.net](konachan.net)
+[Konachan.net](https://konachan.net)
 
 ## Credits
 This project relies on `gallery-dl` developed by mikf.
