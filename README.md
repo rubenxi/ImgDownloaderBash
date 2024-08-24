@@ -1,6 +1,7 @@
 # ImgDownloaderBash
 Set of Shell scripts designed to interact with each other to automate the process of downloading images from Boorus using [gallery-dl](https://github.com/mikf/gallery-dl) and organizing them into folders
 
+The goal of this scripts is to provide an automatic way to stay updated about the new uploads of your favorite artists or favorite characters. By running it every few days, you can get all the images uploaded in the time you were away, not needing to go site by site checking yourself.
 # Requirements
 - zenity
 - wget
